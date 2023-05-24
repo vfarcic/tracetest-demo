@@ -8,7 +8,7 @@ helmCharts:
     releaseName: postgresql
     repo: https://charts.bitnami.com/bitnami
     version: 12.2.7
-    namespace: demo
+    namespace: demo-app
     valuesFile: postgresql-values.yaml
 patchesStrategicMerge:
   - deployment-patch.yaml
